@@ -9,8 +9,10 @@
 """
 result = 0
 
+
 def new_result(in_str):
-    return sum([int(s) for s in in_str.split()])+result
+    return sum([int(s) for s in in_str.split()]) + result
+
 
 while True:
     input_string = input()
