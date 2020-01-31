@@ -5,7 +5,7 @@ def silent_division(dividend, divider):
     try:
         return dividend / divider
     except ZeroDivisionError:
-        return None
+        return "NaN"
 
 
 dividend = float(input("Введите делимое: "))
