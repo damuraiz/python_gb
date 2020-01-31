@@ -17,7 +17,7 @@ def easy_pow(x, y):
 
 def masochism_pow(x, y):
     result = 1
-    for i in range(-y):
+    for _ in range(-y):
         result /= x
     return result
 
