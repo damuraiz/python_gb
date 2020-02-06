@@ -20,4 +20,4 @@ with open("task05_4.txt") as in_f:
     lines = in_f.readlines()
     with open("task05_4.temp.txt", "w") as out_f:
         for line in lines:
-            print(translate(line).replace("\n", ""), file=out_f)
+            print(translate(line), file=out_f, end='')
