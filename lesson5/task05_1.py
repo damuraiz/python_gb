@@ -2,7 +2,7 @@
 # записать в него построчно данные, вводимые пользователем.
 # Об окончании ввода данных свидетельствует пустая строка.
 
-with open("task1.temp.txt", "w") as f:
+with open("task05_1.temp.txt", "w") as f:
     line = input("Введите строку: ")
     while line != "":
         f.write(line + '\n')
